@@ -23,11 +23,11 @@ namespace Lab04
             Item2.Clicked += async (sender, e) =>
             {
                 await Navigation.PushAsync(new TabbedPage1());
-
             };
             Item3.Clicked += async (sender, e) =>
             {
                 await Navigation.PushAsync(new CarouselPage1());
+
             };
             Item7.Clicked += async (sender, e) =>
             {
